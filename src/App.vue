@@ -16,7 +16,7 @@
 <script>
 import Search from './components/Search'
 import PhotoGallery from './components/PhotoGallery'
-import apiKey from '../api_key'
+import apiKey from '../apiKey'
 
 export default {
   name: 'App',
@@ -26,14 +26,13 @@ export default {
   },
   data () {
     return {
-      key: '',
+      key: apiKey,
       photos: [],
       feature: ''
     }
   },
   created () {
-    console.log(apiKey)
-    // this.displayFeature()
+    this.displayFeature()
   },
   methods: {
     async displayPhoto (photo) {
