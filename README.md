@@ -1,29 +1,23 @@
-# final-project
+# Foto Finder
 
-## Project setup
-```
-npm install
-```
+Foto Finder is a web application that utilizes the [Unsplash API](https://unsplash.com/developers) to generate one random "feature" image and display 10 photos related to a user's search query. It's the first application I've built in Vue.js and [it's deployed to Heroku here.](https://deploy-foto.herokuapp.com/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Installation 
+```git clone https://github.com/taylorsperry/final-project.git```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+```npm install``` from the root directory
 
-### Run your tests
-```
-npm run test
-```
+Request an API key from the [Unsplash API](https://unsplash.com/developers)
 
-### Lints and fixes files
-```
-npm run lint
-```
+From the root directory add a file named .env and add VUE_APP_APIKEY=*your API key here*
+  
+```npm run serve``` and visit localhost:8080 in your browser
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Tech Stack
+
+- Vue.js
+- Node/Express
+- Heroku
+
+<img width="1194" alt="Screen Shot 2019-06-04 at 6 20 36 PM" src="https://user-images.githubusercontent.com/43555476/58922211-340fb700-86f7-11e9-8c9d-8bc06f817268.png">
+
